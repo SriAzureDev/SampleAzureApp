@@ -39,7 +39,3 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-- task: ResharperCli@2
-  inputs:
-    solutionOrProjectPath: 'AzureApplication/AzureApplication.csproj'
-    failBuildLevelSelector: 'Warning'
